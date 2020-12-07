@@ -13,5 +13,10 @@ setuptools.setup(
     long_description = README.read_text(),
     long_description_content_type = "text/markdown",
     packages = setuptools.find_packages(),
-    url = "https://github.com/DrSparky-2007/PythonicSwitchCase"
+    url = "https://github.com/DrSparky-2007/PythonicSwitchCase",
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
 )
