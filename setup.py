@@ -5,7 +5,7 @@ README = BASE_DIR / 'README.md'
 LICENSE = BASE_DIR / 'LICENSE'
 
 setuptools.setup(
-    name = "PythonicSwitch-DrSparky-2007",
+    name = "PythonicSwitchCase",
     version = "1.0.0,",
     author = "DrSparky-2007",
     author_email = "adityaiyer2007@gmail.com",
