@@ -40,3 +40,11 @@ sw.case(3, print, "Wednesday")
 # And you can add a default
 sw.default(print, "Other days")
 ```
+
+Now for the smart people out there, you can use lambda functions to put args and kwargs together.
+```py
+sw.case(1, lambda: print("Monday")
+```
+
+And you can put multiline code snippets by defining them and deleting them after
+When you want to delete the switch, call the kill function first and then you can safely delete the object
