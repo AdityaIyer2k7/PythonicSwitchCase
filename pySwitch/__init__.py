@@ -37,6 +37,7 @@ class Switch:
         self.valFunc[None] = lambda: func(*args, **kwargs)
 
     def __call__(self):
+        var = self.var
         if self.fast:
             self.funcToRun()
         else:
