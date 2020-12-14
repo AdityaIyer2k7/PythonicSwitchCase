@@ -6,7 +6,7 @@ LICENSE = BASE_DIR / 'LICENSE'
 
 setuptools.setup(
     name = "PythonicSwitch",
-    version = "1.0.0,",
+    version = "1.0.1",
     author = "DrSparky-2007",
     author_email = "adityaiyer2007@gmail.com",
     description = "A pythonic way to implement switch-case",
@@ -14,6 +14,11 @@ setuptools.setup(
     long_description_content_type = "text/markdown",
     packages = setuptools.find_packages(),
     url = "https://github.com/DrSparky-2007/PythonicSwitchCase",
+    keywords=[
+        "PythonicSwitch",
+        "Switch case",
+        "Switch statement",
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
