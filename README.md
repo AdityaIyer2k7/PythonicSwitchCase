@@ -43,7 +43,7 @@ sw.default(print, "Other days")
 
 Now for the smart people out there, you can use lambda functions to put args and kwargs together.
 ```py
-sw.case(1, lambda: print("Monday")
+sw.case(1, lambda: print("Monday"))
 ```
 
 And you can put multiline code snippets by defining them and deleting them after
