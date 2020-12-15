@@ -6,7 +6,7 @@ LICENSE = BASE_DIR / 'LICENSE'
 
 setuptools.setup(
     name = "PythonicSwitch",
-    version = "1.0.2",
+    version = "1.0.3",
     author = "DrSparky-2007",
     author_email = "adityaiyer2007@gmail.com",
     description = "A pythonic way to implement switch-case",
