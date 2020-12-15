@@ -48,3 +48,25 @@ class Switch:
 
     def kill(self):
         self.checking = False
+
+def help():
+    print("""
+    Switch case
+    To make a new switch-case, write:
+    
+    from pySwitch import Switch
+    switch = Switch(VALUE)
+    
+    Make a new case by writing:
+    
+    switch.case(POSSIBILITY, FUNCTION_NAME, ARGUKENTS, KEYWORD_ARGUMENTS)
+    
+    If you want to make the switch-case quicker, use the fast keyword:
+    
+    switch = Switch(VALUE, fast = True)
+    
+    Beware, if fast mode is on, to delete the object you must call:
+    
+    switch.kill()
+    
+    """)
